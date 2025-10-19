@@ -1,0 +1,27 @@
+{
+  "type": "LiquidRouter",
+  "liquidCapacity": 40,
+  "category": "liquid",
+  "placeableLiquid": true,
+  "hasPower": false,
+  "requirements": [
+    { "item": "kalium", "amount": 1 }
+    { "item": "natrium", "amount": 3 }
+  ],
+  "research": {
+    "parent": "isolant-pipe"
+	"requirements": [
+      {
+        "item": "kalium",
+        "amount": 6
+      },
+      {
+        "item": "natrium",
+        "amount": 6
+      }
+    ]
+  },
+  "name": "Isolant router",
+  "localizedName": "Изолированный Маршрутизатор",
+  "description": "делит жидкость в три сторонны."
+}

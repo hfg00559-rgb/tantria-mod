@@ -1,0 +1,24 @@
+{
+  "type": "Wall",
+  "name": "iodine-wall-large",
+  "localizedName": "Большая стена из Йода",
+  "description": "Прочная стена из Йода.",
+  "health": 4800,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "iodine",
+      "amount": 24
+    }
+  ],
+  "category": "defense"
+  "research": {
+    "parent": "iodine-wall"
+	"requirements": [
+      {
+        "item": "iodine",
+        "amount": 24
+      }
+    ]
+  }
+}

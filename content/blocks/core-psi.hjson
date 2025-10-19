@@ -1,0 +1,26 @@
+{
+  "type": "CoreBlock",
+  "localizedName": "Ядро: Пси",
+  "size": 3,
+  "health": 2000,
+  "itemCapacity": 2500,
+  "unitType": "psi-unit",
+  "category": "effect",
+  "requirements": [
+    {
+      "item": "kalium",
+      "amount": 500
+    }
+  ],
+  "research": {
+    "root": true,
+    "name": "Тантрия",
+    "planet": "tantria",
+    "requirements": [
+      {
+        "item": "kalium",
+        "amount": 5
+      }
+    ]
+  }
+}

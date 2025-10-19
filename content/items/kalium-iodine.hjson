@@ -1,0 +1,7 @@
+{
+  "name": "kalium-iodine",
+  "localizedName": "Йодид Калия",
+  "research": {
+    "parent": "kalium"
+  }
+}

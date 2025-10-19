@@ -1,0 +1,7 @@
+{
+  "name": "kalium",
+  "localizedName": "Калий",
+  "research": {
+    "parent": "core-psi"
+  }
+}

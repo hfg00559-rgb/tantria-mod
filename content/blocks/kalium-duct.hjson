@@ -1,0 +1,19 @@
+{
+  "name": "kalium-duct",
+  "localizedName": "Калиевый конвеер",
+  "type": "Duct",
+  "description": "Подводный конвеер, из калия.",
+  "size": 1,
+  "speed": 5,
+  "health": 60,
+  "category": "distribution",
+  "requirements": [
+    { "item": "kalium", "amount": 1 }
+  ]
+  "research": {
+    "parent": "core-psi"
+    "requirements": [
+        { "item": "kalium", "amount": 5 }
+      ]
+  }
+}

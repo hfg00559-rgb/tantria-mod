@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "potassium-iodide-synthesizer",
+  "localizedName": "Мешалка KI",
+  "description": "Смешивает Калий с Йодом, создавая Йодистый Калий (KI)",
+  "size": 2,
+  "health": 300,
+  "consumes": {
+    "items": [
+      {
+        "item": "kalium",
+        "amount": 1
+      },
+      {
+        "item": "iodine",
+        "amount": 1
+      }
+    ]
+  },
+  "outputItem": {
+    "item": "kalium-iodine",
+    "amount": 1
+  },
+  "craftTime": 60,
+  "category": "crafting",
+  "requirements": [
+    {
+      "item": "kalium",
+      "amount": 50
+    },
+    {
+      "item": "iodine",
+      "amount": 40
+    }
+  ],
+  "research": {
+    "parent": "cobalt-mixer"
+	"requirements": [
+      {
+        "item": "kalium",
+        "amount": 100
+      },
+      {
+        "item": "natrium",
+        "amount": 60
+      }
+    ]
+  }
+}
