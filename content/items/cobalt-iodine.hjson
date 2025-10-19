@@ -1,7 +1,0 @@
-{
-  "name": "cobalt-iodine",
-  "localizedName": "Йодид Кобальта",
-  "research": {
-    "parent": "cobalt"
-  }
-}
