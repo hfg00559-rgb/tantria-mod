@@ -1,0 +1,12 @@
+name: tant-02
+localizedName: "Схватка"
+description: "Враг впервые обнаружил вас."
+planet: tantria
+sector: 2
+difficulty: 3
+captureWave: 5
+addStartingItems: true
+alwaysUnlocked: false
+research: {
+  parent: "tant-01"
+}

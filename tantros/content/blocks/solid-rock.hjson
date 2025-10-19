@@ -1,0 +1,4 @@
+"localizedName":"Твердый камень",
+"type": "StaticWall",
+"itemDrop": "sand",
+"variants": 3

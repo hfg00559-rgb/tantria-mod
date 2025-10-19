@@ -1,0 +1,44 @@
+{
+  "type": "ItemTurret",
+  "name": "nail-turret",
+  "localizedName": "Гвоздь",
+  "description": "Стріляє йодом.",
+  "size": 1,
+  "health": 600,
+  "category": "turret",
+  "requirements": [
+    {
+      "item": "kalium",
+      "amount": 20
+    },
+    {
+      "item": "iodine",
+      "amount": 10
+    }
+  ],
+  "reload": 30,
+  "range": 150,
+  "rotateSpeed": 3,
+  "ammoTypes": {
+    "iodine": {
+      "type": "BasicBulletType",
+      "damage": 12,
+      "speed": 10,
+      "lifetime": 60,
+      "hitEffect": "hitLancer"
+    }
+  },
+  "research": {
+    "parent": "core-psi",
+    "requirements": [
+      {
+        "item": "kalium",
+        "amount": 25
+      },
+      {
+        "item": "iodine",
+        "amount": 25
+      }
+    ]
+  }
+}

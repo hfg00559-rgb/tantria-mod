@@ -1,0 +1,39 @@
+name: huesos
+localizedName: Зета
+description: Маленький юнит, имеет большой урон по постройкам врага.
+type: mech
+canBoost: true
+speed: 0.7
+drag: 0.4
+hitSize: 6
+health: 150
+mineSpeed: 4
+mineTier: 2
+controller: groundAI
+
+weapons: [
+  {
+    x: 3
+    y: 0
+    shootSound: blaster
+    reload: 15
+    mirror: true
+    range: 120
+    bullet: {
+      type: BasicBulletType
+      weaveScale: 3
+      weaveMag: 3
+      speed: 4
+      lifetime: 30
+      damage: 11
+      splashDamage: 6
+      splashDamageRadius: 6
+      trailLength: 3
+      trailWidth: 5
+      height: 5
+      width: 5
+      trailInterval: 6
+      buildingDamageMultiplier: 2
+    }
+  }
+]

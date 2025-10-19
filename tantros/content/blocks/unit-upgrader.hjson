@@ -1,0 +1,37 @@
+{
+  "type": "Reconstructor",
+  "name": "unit-upgrader",
+  "localizedName": "Реконструктор Юнитов",
+  "description": "Делает Т2 юнитов.",
+  "category": "units",
+  "size": 3,
+  "health": 750,
+
+  "requirements": [
+    { "item": "cobalt-iodine", "amount": 100 },
+    { "item": "iodine", "amount": 80 },
+    { "item": "kalium", "amount": 60 }
+  ],
+
+  "consumePower": 2.5,
+  "constructTime": 2400,
+
+  "upgrades": [
+    [
+      "zeta",
+      "yota"
+    ],
+    [
+      "teza",
+      "lambda"
+    ]
+  ],
+
+  "consumes": {
+    "items": [
+      { "item": "cobalt", "amount": 50 },
+      { "item": "kalium", "amount": 40 },
+      { "item": "iodine", "amount": 30 }
+    ]
+  }
+}

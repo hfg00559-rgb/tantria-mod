@@ -1,0 +1,8 @@
+{
+  "name": "natrium",
+  "localizedName": "Натрий",
+  "description": "Щелочной Метал",
+  "research": {
+    "parent": "kalium"
+  }
+}

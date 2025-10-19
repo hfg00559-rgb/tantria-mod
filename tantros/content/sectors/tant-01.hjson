@@ -1,0 +1,19 @@
+{
+  "type": "SectorPreset",
+  "name": "tant-01",
+  "localizedName": "Начало",
+  "description": "Первая посадка на тантрос.",
+  "planet": "tantria",
+  "sector": 1,
+  "difficulty": 3,
+  "captureWave": 5,
+  "addStartingItems": true,
+  "alwaysUnlocked": true,
+  "allowWaves": true,
+  "allowWaveSimulation": true,
+  "clearSectorOnLose": true,
+  "defaultCore": "core-psi"
+  "research": {
+    "parent": "core-psi"
+  }
+}

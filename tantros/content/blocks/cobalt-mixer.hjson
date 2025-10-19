@@ -1,0 +1,64 @@
+{
+  "name": "cobalt-mixer",
+  "localizedName": "Миксер Кобальта",
+  "description": "Синтезирует кобальт в больших количествах.",
+  "type": "GenericCrafter",
+  "size": 3,
+  "outputItem": {
+    "item": "cobalt",
+    "amount": 5
+  },
+  "itemCapacity": 24,
+  "consumes": {
+    "items": [
+      {
+        "item": "sand",
+        "amount": 1
+      },
+      {
+        "item": "kalium",
+        "amount": 2
+      }
+    ]
+  },
+  "craftTime": 240,
+  "drawer": {
+    "type": "drawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "cobalt",
+      "amount": 60
+    },
+    {
+      "item": "iodine",
+      "amount": 80
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "core-psi"
+	"requirements": [
+      {
+        "item": "cobalt",
+        "amount": 60
+      },
+      {
+        "item": "iodine",
+        "amount": 80
+      }
+    ]
+  }
+}

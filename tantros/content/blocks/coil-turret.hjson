@@ -1,0 +1,69 @@
+{
+  "type": "ItemTurret",
+  "name": "coil-turret",
+  "localizedName": "Катушка",
+  "description": "Использует йодиды металлов и электричество в качестве снарядов. Является сильной турелью",
+  "size": 2,
+  "health": 1200,
+  "category": "turret",
+  "requirements": [
+    {
+      "item": "kalium",
+      "amount": 160
+    },
+    {
+      "item": "iodine",
+      "amount": 140
+    },
+    {
+      "item": "cobalt",
+      "amount": 130
+    }
+  ],
+  "reload": 25,
+  "range": 160,
+  "rotateSpeed": 3,
+  "ammoUseEffect": "shootSmall",
+  "consumes": {
+    "power": 2.5
+  },
+  "ammoTypes": {
+    "cobalt-iodine": {
+      "type": "LightningBulletType",
+      "damage": 80,
+      "lightningLength": 25,
+      "lightningLengthRand": 5,
+      "lightningCone": 10,
+      "lightningColor": "6cb6ff",
+      "shootEffect": "shootSmall",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "collidesAir": true
+    },
+    "kalium-iodine": {
+      "type": "LightningBulletType",
+      "damage": 55,
+      "lightningLength": 18,
+      "lightningLengthRand": 4,
+      "lightningCone": 18,
+      "lightningColor": "b5e0ff",
+      "shootEffect": "shootSmall",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "collidesAir": true
+    }
+  },
+  "research": {
+    "parent": "nail-turret",
+    "requirements": [
+      {
+        "item": "kalium",
+        "amount": 50
+      },
+      {
+        "item": "iodine",
+        "amount": 50
+      }
+    ]
+  }
+}

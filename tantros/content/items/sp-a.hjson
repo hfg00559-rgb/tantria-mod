@@ -1,0 +1,14 @@
+{
+  "name": "sp-a",
+  "localizedName": "Научный пакет уровня - А",
+  "description": "Базовый научный пакет ._.",
+  "research": {
+    "parent": "core-psi"
+    "requirements": [
+      {
+        "item": "kalium",
+        "amount": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "weak-drill",
+  "localizedName": "Слабый Бур",
+  "type": "Drill", "size": 2,
+  "tier": 1, "drillTime": 400,
+  "category": "production",
+  "requirements": [
+    { "item": "kalium", "amount": 15 }
+  ]
+  "research": {
+    "parent": "core-psi"
+	"requirements": [
+      {
+        "item": "kalium",
+        "amount": 15
+      }
+    ]
+  }
+}
